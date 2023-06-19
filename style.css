@@ -17,6 +17,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: black;
   color: white;
+  user-select: none;
 }
 /* common style */
 img {
@@ -122,6 +123,9 @@ a {
   /* height: 150px;  */
   border-radius: 10%;
 }
+.profile_name{
+user-select: none;
+}
 .profile_name_firstName {
   color: white;
   font-weight: 200;
@@ -147,9 +151,13 @@ a {
   text-decoration: underline;
   font-size: 1.6rem;
   margin-top: 1rem;
+  user-select: none;
+  transition: transform 0.5s;
 }
 .downloadBtn:hover {
   color: var(--primary-color);
+  text-decoration: none;
+  transform: translateY(-2px);
 }
 @media only screen and (max-width: 768px) {
   .profile_container {
