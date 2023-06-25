@@ -189,6 +189,8 @@ user-select: none;
 }
 .link {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 2rem;
   
 }
